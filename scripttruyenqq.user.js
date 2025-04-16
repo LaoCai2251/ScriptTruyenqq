@@ -4,7 +4,7 @@
 // @version      0.7
 // @description  Replaces images on a webpage with a draggable menu, selects and replaces specific image URLs and remove some specific ads element
 // @author       Jolly Meme
-// @match        https://truyenqqto.com/*
+// @match        https://truyenqqgo.com/*
 // @grant        none
 // ==/UserScript==
 
