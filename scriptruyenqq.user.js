@@ -11,6 +11,7 @@
 // @grant        GM_getValue
 // @connect      danbooru.donmai.us
 // @run-at       document-start
+// @downloadURL  https://github.com/LaoCai2251/ScriptTruyenqq/raw/refs/heads/main/scriptruyenqq.user.js
 // ==/UserScript==
 
 (function() {
