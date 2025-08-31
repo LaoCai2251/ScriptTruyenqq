@@ -22,7 +22,9 @@
     // --- POP-UP BLOCKER ---
     const originalWindowOpen = window.open;
     window.open = function(url, name, features) {
-        if (url && typeof url === 'string' && (url.includes('tiktok.com') || url.includes('mplmncb.com'))) return null;
+         if (url && typeof url === 'string' && (url.includes('tiktok.com') || url.includes('mplmncb.com') || url.includes('sin88.sx'))) {
+        console.log('%c[Blocker] Blocked a pop-up attempt to: ' + url, 'color: #ff6347;');
+        return null;
         return originalWindowOpen.apply(window, arguments);
     };
 
