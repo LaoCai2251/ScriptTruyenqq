@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TruyenQQ Emoji Custom
 // @namespace    http://tampermonkey.net/
-// @version      8.0
+// @version      8.1
 // @description  Custom emoji
 // @author       Jolly Meme x LaoCai2255
 // @match        https://truyenqqgo.com/*
