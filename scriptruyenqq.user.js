@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         TruyenQQ Emoji Custom
 // @namespace    http://tampermonkey.net/
-// @version      8.1
+// @version      8.2
 // @description  Custom emoji
 // @author       Jolly Meme x LaoCai2255
 // @match        https://truyenqqgo.com/*
@@ -22,8 +22,7 @@
     // --- POP-UP BLOCKER ---
     const originalWindowOpen = window.open;
     window.open = function(url, name, features) {
-         if (url && typeof url === 'string' && (url.includes('tiktok.com') || url.includes('mplmncb.com') || url.includes('sin88.sx'))) {
-        console.log('%c[Blocker] Blocked a pop-up attempt to: ' + url, 'color: #ff6347;');
+        if (url && typeof url === 'string' && (url.includes('tiktok.com') || url.includes('mplmncb.com')|| url.includes('sin88.sx'))) 
         return null;
         return originalWindowOpen.apply(window, arguments);
     };
