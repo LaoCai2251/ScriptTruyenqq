@@ -4,7 +4,7 @@
 // @version      8.2
 // @description  Custom emoji
 // @author       Jolly Meme x LaoCai2255
-// @match        https://truyenqqgo.com/*
+// @match        https://truyenqqno.com/*
 // @match        file:///*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_setValue
